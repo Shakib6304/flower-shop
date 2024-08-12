@@ -1,0 +1,55 @@
+/* common shared style */
+body{
+    margin: 0px;
+        font-family: "Lato", sans-serif;
+        font-family: "Lato", sans-serif;   
+}
+.btn-primary{
+width: 100px;
+background-color: rgba(229, 84, 115, 1);
+color: white;
+border: 0px;
+padding: 10px;
+border-radius: 3px;
+margin:0px 20px 0px;
+}
+/* Header related style */
+
+.header-container{
+    background-color:rgba(229, 84, 115, 0.15);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    height: 650px;
+}
+
+.header-text{
+    width: 50%;
+    margin: 20px 20px 10px 80px ;
+    max-width: 700px ;
+    height: 500px;
+}
+.header-title{
+    font-size:82px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: rgba(39, 39, 39, 1);
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.6);
+    margin: 0px 0px 10px 23px;
+    font-size: 16px;
+}
+
+.header-img-part{
+    width: 50%;
+    
+}
+.header-img {
+    width:450px ;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+/* favorite section style */

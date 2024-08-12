@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .flower-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 50% 50% 0 0;
+            width: 150px;
+            height: 250px;
+            overflow: hidden;
+            background-color: #fdeef7;
+        }
+        .flower-card:nth-child(2) {
+            background-color: #e3f6ff;
+        }
+        .flower-card:nth-child(3) {
+            background-color: #e4f7e4;
+        }
+        .flower-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50% 50% 0 0;
+        }
+        .flower-card p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flower-card">
+            <img src="pink-flower-1.jpg" alt="Pink Flower Tree 1">
+            <p>Pink Flower Tree</p>
+        </div>
+        <div class="flower-card">
+            <img src="pink-flower-2.jpg" alt="Pink Flower Tree 2">
+            <p>Pink Flower Tree</p>
+        </div>
+        <div class="flower-card">
+            <img src="yellow-flower-1.jpg" alt="Pink Flower Tree 3">
+            <p>Pink Flower Tree</p>
+        </div>
+    </div>
+</body>
+</html>
